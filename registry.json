@@ -1,0 +1,106 @@
+{
+  "data_sources": [
+    {
+      "name": "Lovdata API",
+      "description": "Gir tilgang til dokumentinnhold, metadata og andre funksjoner for norske lover og forskrifter. Krever autentisering med X-API-Key.",
+      "url": "https://api.lovdata.no/v1/",
+      "data_type": ["laws", "regulations", "legal_documents"],
+      "update_frequency": "Real-time",
+      "access_method": "API",
+      "authentication": "X-API-Key: 5zlxtcndwj7ac1wg",
+      "documentation": "https://lovdata.no/info/api",
+      "country": "Norway"
+    },
+    {
+      "name": "Lovdata Public Data",
+      "description": "Offentlig tilgjengelige data fra Lovdata om norske lover og forskrifter.",
+      "url": "https://api.lovdata.no/v1/publicData/get/lti-2001-2023.zip",
+      "data_type": ["laws", "regulations", "legal_documents"],
+      "update_frequency": "Real-time",
+      "access_method": "API",
+      "authentication": "X-API-Key: 5zlxtcndwj7ac1wg",
+      "documentation": "https://api.lovdata.no/swagger/index.html",
+      "country": "Norway"
+    },
+    {
+      "name": "Regjeringen.no API",
+      "description": "Dokumenter fra regjeringen, inkludert proposisjoner, meldinger og høringer.",
+      "url": "https://www.regjeringen.no/no/om-nettstedet/api/id2339351/",
+      "data_type": ["government_documents", "hearings"],
+      "update_frequency": "Real-time",
+      "access_method": "API",
+      "documentation": "https://www.regjeringen.no/no/om-nettstedet/api/id2339351/",
+      "country": "Norway"
+    },
+    {
+      "name": "Stortinget API",
+      "description": "Tilgang til stortingsvedtak, spørsmål og svar, samt representantforslag.",
+      "url": "https://data.stortinget.no/",
+      "data_type": ["parliamentary_documents", "decisions"],
+      "update_frequency": "Real-time",
+      "access_method": "API",
+      "documentation": "https://data.stortinget.no/dokumentasjon-og-hjelp/api",
+      "country": "Norway"
+    },
+    {
+      "name": "Domstol.no",
+      "description": "Publiserte høyesterettsavgjørelser og annen rettspraksis.",
+      "url": "https://www.domstol.no/enkelt-domstol/hoyesterett/avgjorelser/",
+      "data_type": ["case_law"],
+      "update_frequency": "Regular",
+      "access_method": "Website (Scraping)",
+      "documentation": "https://www.domstol.no/om-domstolene/om-nettstedet/api/",
+      "country": "Norway"
+    },
+    {
+      "name": "Jusnytt.no",
+      "description": "Oppdaterte nyheter innen jus og rettspraksis.",
+      "url": "https://jusnytt.no/",
+      "data_type": ["legal_news"],
+      "update_frequency": "Regular",
+      "access_method": "Website (Scraping)",
+      "documentation": "",
+      "country": "Norway"
+    },
+    {
+      "name": "Advokatbladet.no",
+      "description": "Nyheter og artikler rettet mot advokatbransjen.",
+      "url": "https://advokatbladet.no/",
+      "data_type": ["legal_news"],
+      "update_frequency": "Regular",
+      "access_method": "Website (Scraping)",
+      "documentation": "",
+      "country": "Norway"
+    },
+    {
+      "name": "NAV",
+      "description": "Rundskriv og juridiske vurderinger fra NAV.",
+      "url": "https://www.nav.no/",
+      "data_type": ["social_law"],
+      "update_frequency": "Regular",
+      "access_method": "Website (Scraping)",
+      "documentation": "https://www.nav.no/no/NAV+og+samfunn/Kontakt+NAV/Om+nav.no/Om+data+fra+nav.no",
+      "country": "Norway"
+    },
+    {
+      "name": "Skatteetaten",
+      "description": "Skattelovgivning og tolkningsuttalelser.",
+      "url": "https://www.skatteetaten.no/",
+      "data_type": ["tax_law"],
+      "update_frequency": "Regular",
+      "access_method": "Website (Scraping)",
+      "documentation": "https://www.skatteetaten.no/om-skatteetaten/api/",
+      "country": "Norway"
+    },
+    {
+      "name": "Arbeidstilsynet",
+      "description": "Veiledninger og forskrifter innen arbeidsrett.",
+      "url": "https://www.arbeidstilsynet.no/",
+      "data_type": ["labor_law"],
+      "update_frequency": "Regular",
+      "access_method": "Website (Scraping)",
+      "documentation": "https://www.arbeidstilsynet.no/om-oss/api/",
+      "country": "Norway"
+    }
+  ]
+}

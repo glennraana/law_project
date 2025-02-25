@@ -1,0 +1,14 @@
+# Language model and retrieval
+sentence-transformers==2.2.2
+faiss-cpu==1.7.3.post2
+numpy==1.23.5
+
+# Database
+pymongo==4.2.0
+
+# Hugging Face transformers (for summarization and LLM integration)
+transformers==4.27.0
+torch==1.13.1
+
+# Web crawling with Scrapy
+scrapy==2.8.0
